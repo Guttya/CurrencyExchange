@@ -1,0 +1,25 @@
+{
+  "name": "currencyexchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Guttya/CurrencyExchange.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "@symfony/webpack-encore": "^4.6.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.3",
+    "webpack": "^5.91.0"
+  }
+}
